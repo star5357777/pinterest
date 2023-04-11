@@ -13,5 +13,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
 
     {#  DEFAULT CSS LINK  #}
-    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}"/>
+
+    <link href="{% static 'base.css' %}" rel="stylesheet" type="text/css"/>
 </head>
+<style>
+    @media screen and (max-width:500px) {
+        html {
+            font-size: 13px;
+        }
+    }
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: none;
+    }
+</style>
